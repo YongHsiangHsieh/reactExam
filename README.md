@@ -2,7 +2,7 @@
 
 ## 1. Setup instructions
 
-This repository contains the starting code for a lab-based React assessment. 
+This repository contains the starting code for a lab-based React assessment.
 
 [https://github.com/rbirney/react-exam](https://github.com/rbirney/react-exam)
 
@@ -14,22 +14,22 @@ You are required to take the following steps in preparation for this exam.
 
 - Clone the `react-exam` repository using the following command:
 
-~~~bash
+```bash
 git clone https://github.com/rbirney/react-exam.git
-~~~
+```
 
 ### Add .env file
 
 - Open the cloned project in Visual Studio Code
 
-- Create an .env file in the base folder. 
+- Create an .env file in the base folder.
 
 - Add your TMDB API key (the same one that you used in the React labs)
 
-~~~bash
+```bash
 VITE_TMDB_KEY=YOUR_KEY_GOES_HERE
 FAST_REFRESH=false
-~~~
+```
 
 ### Create your own repository
 
@@ -39,48 +39,45 @@ Copy the URL of your new repository.
 
 Open a new terminal in VS Code (in your react-exam folder) and type the following commands:
 
-~~~bash
+```bash
 git remote remove origin
 git remote add origin ...URL of your new repository...
 git push origin main
-~~~
+```
 
 Verify that your GitHub repository now contains the starter app.
-
 
 ### Start the app
 
 In your VS Code terminal, run the following commands:
 
-~~~bash
+```bash
 npm install
 npm run dev
-~~~
+```
 
 Now check that the Movie App runs correctly and is accessible from a browser on your machine.
-
 
 ### Update README.md
 
 Add your name and student number to the README.md file, as shown below:
 
-~~~markdown
+```markdown
 # React In-class Exam, October 2025
 
-Your Name, Student Number
+Yong Hsiang Hsieh, 20100776
 ...
-~~~
+```
 
 Push your changes to GitHub:
 
-~~~bash
+```bash
 git add -A
 git commit -m "Readme updated"
 git push origin main
-~~~
+```
 
 **Please ensure you have completed these steps before the lab-based exam and that you can push changes to your remote repository on GitHub.**
-
 
 ## 2. Submit to Moodle
 
